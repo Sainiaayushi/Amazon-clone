@@ -1,0 +1,547 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+body {
+    background-color: #fff;
+}
+     /* ..................navbar.......... */
+    
+.nav-bar {
+    background-color: #233547;
+    height: 60px;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0 15px;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+
+}
+
+.nav-box2 {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Logo */
+.nav-box1 img {
+    height: 50px;
+    width: 113px;
+    cursor: pointer;
+}
+
+/* Border effect for all boxes */
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+
+}
+
+/* Box 2 - Location */
+.link{
+    text-decoration: none;
+   
+    color: white;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.first {
+    margin-left: 14px;
+    color: #ccc;
+    font-size: 0.9vw;
+}
+
+.second {
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+.location i {
+    font-size: 1.2vw;
+    margin-right: 3px;
+}
+
+/* ...........search box */
+
+
+.nav-search {
+    width: 600px;
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    border: 0;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 6px;
+}
+
+.nav-search:hover {
+    border: 2px solid rgb(247, 124, 24);
+}
+
+.category {
+    width: 52px;
+    padding: 12px;
+
+    font-size: 1vw;
+    border: 0;
+    outline: none;
+    background-color: #ece6e6;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+
+
+}
+
+ /* .............searchbox... */
+.input-search {
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 1.2vw;
+    padding-left: 5px;
+}
+
+.search-icon {
+    width: 52px;
+    background-color: rgb(235, 182, 84);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 2vw;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+
+
+}
+.search-icon i{
+    text-decoration: none;
+    color: black;
+}
+.search-icon:hover{
+    background-color: #ccc;
+}
+
+ 
+
+/* language Select */
+
+.nav-lang {
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+.lang-select {
+    background: transparent;
+    font-size: 1.2vw;
+    font-weight: 501;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 0;
+    outline: none;
+    width: 40px;
+    margin-left: 5px;
+}
+
+.select-image {
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+
+}
+
+.select-image img {
+    
+    width: 16px;
+    background-color: white;
+}
+
+
+/* ....Sign in */
+
+.sign-in {
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 9px 10px;
+}
+
+.nav-sign {
+    font-size: 1.1vw;
+    padding-bottom: 2px;
+
+}
+
+.account {
+    background: transparent;
+    color: white;
+    font-weight: 501;
+    outline: none;
+    border: 0;
+    font-size: 1.2vw;
+
+}
+.nav-bar2 {
+    display: flex;
+    
+}
+
+.account-menu {
+    position: relative;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.account-menu .bold {
+    font-weight: bold;
+}
+
+.dropdown {
+    display:none ;
+    position: absolute;
+    top: 100%;
+    left: -154px;
+    background-color: white;
+    width: 410px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.signin-btn {
+    width: 100%;
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.dropdown-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.column {
+    width: 48%;
+}
+
+.column h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 6px;
+}
+
+.column ul li a {
+    text-decoration: none;
+    color: #0073e6;
+    font-size: 14px;
+}
+
+.column ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Show dropdown on hover */
+.account-menu:hover .dropdown {
+    display: block;
+}
+
+
+
+
+
+/* .........Order section.... */
+.nav-order {
+    width: 70px;
+    padding: 4px;
+
+}
+
+.return p {
+    font-size: 1vw;
+
+}
+
+.return h4 {
+    font-weight: 501;
+}
+
+/* ....cart....... */
+
+.nav-cart {
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart i {
+    font-size: 2.5vw;
+    color: white;
+}
+
+
+
+/* Second navbar........ */
+
+.container2 {
+    height: 40px;
+    width: 100%;
+    background-color: #17232f;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 60px;
+
+}
+
+
+/* ......list icon */
+
+.list-item {
+    color: white;
+    font-weight: 501;
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    width: auto;
+}
+
+
+.list-item i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vw;
+}
+
+.list-item a {
+
+    font-size: 1.3vw;
+    font-weight: 501;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    text-decoration: none;
+    color: white;
+
+}
+
+/* .......All items... */
+.all-items {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    height: 40px;
+    padding: 5px;
+
+
+}
+
+.all-items a {
+    font-size: 1.1vw;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
+
+}
+
+
+.container {
+    display: flex;
+    position: relative;
+    top: 60px;
+}
+
+.sidebar {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar h2, .sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pc {
+    color: blue;
+    font-weight: bold;
+}
+
+.gaming {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.product {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.product p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* Base styles remain unchanged */
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .nav-search {
+        width: 500px;
+    }
+    .category {
+        width: 45px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-bar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+    .nav-search {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .all-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .carts {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-search {
+        width: 90%;
+    }
+    .nav-box1 img {
+        width: 90px;
+    }
+    .nav-lang, .sign-in, .nav-order, .nav-cart {
+        display: none;
+    }
+    .container2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-bar {
+        padding: 5px;
+    }
+    .nav-box1 img {
+        width: 80px;
+    }
+    .nav-search {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .category, .search-icon {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .all-items {
+        gap: 10px;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+}
